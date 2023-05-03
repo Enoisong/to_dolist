@@ -1,24 +1,28 @@
 * {
     margin: 0;
     padding: 0;
-  }
-  
-  .hello {
-    color: rgb(112, 189, 122);
-  }
-  
-  .container {
+}
+
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+ 
+.container {
     box-shadow: 0 2px 8px rgb(0 0 0 / 15%);
     max-width: 40%;
     margin: 50px auto;
-  }
+}
   
-  .title {
+.title {
     padding: 3%;
-    color: rgb(216, 166, 29);
-  }
+    color: rgba(5, 122, 177, 0.795);
+    background-color: rgba(240, 240, 240, 0.493);
+    font-weight: 700;
+    text-shadow: rgb(145, 6, 6);
+ 
+}
   
-  form {
+form {
     display: flex;
     justify-content: space-between;
     padding-right: 0;
@@ -27,37 +31,42 @@
     border-right: none;
     border-bottom: 0.6px solid rgb(216, 216, 216);
     border-left: none;
-  }
+}
   
-  .todo-edit {
+.todo-edit {
     border: none;
-  }
+}
   
-  form input[type='text'] {
+form input[type='text'] {
     border: none;
     font-style: italic;
     width: 85%;
     padding: 3%;
   }
+
+form .add-refreshbtn {
+    position: relative;
+    right: 5%;
+}
   
-  form .add-btn {
+form .add-btn {
     position: relative;
     right: 3.2%;
-  }
+}
   
-  input[type='text']:focus {
+input[type='text']:focus {
     outline: none;
-  }
+}
   
-  .todo-item {
+.todo-item {
     padding: 3%;
     border-bottom: 0.6px solid rgb(216, 216, 216);
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-  }
+}
   
-  button {
+button {
     background: none;
     color: inherit;
     border: none;
@@ -67,31 +76,32 @@
     outline: inherit;
   }
   
-  .clear {
+.clear {
     background-color: rgba(240, 240, 240, 0.493);
     text-align: center;
     padding: 3%;
-  }
+}
   
-  .clear a {
+.clear a {
     cursor: pointer;
-    color: rgba(255, 166, 0, 0.507);
-  }
+    color: rgba(5, 122, 177, 0.795);
+    font-weight: 700;
+}
   
-  .clear a:hover {
+.clear a:hover {
     color: rgb(216, 166, 29);
     text-decoration: underline;
     font-weight: bold;
-  }
+}
   
-  .checked {
+.checked {
     text-decoration: line-through;
     color: rgba(129, 129, 129, 0.548);
-  }
+}
   
   @media screen and (max-width: 400px) {
     .container {
       max-width: 70%;
     }
-  }
+}
   
