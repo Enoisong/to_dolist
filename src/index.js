@@ -1,6 +1,22 @@
-import './style.css';
-import render from './todosRender.js';
-import Todos from './todos.js';
+import './style.css'; 
 
-const todosList = new Todos();
+const todosList = [
+  {description: 'todo2', completed: false, index: 2},
+  {description: 'todo1', completed: false, index: 1 },
+]
+
+constrender = (list) => {
+    const sortedTodos = list.sort((a, b) => a.index - b.index);
+    const todosContainer = document.querySelector('.todos');
+    let todosHtml = '';
+    sortedTodos.forEach((todo) => {
+        todosHtml += `<div class="todo-item">
+        <input type="checkbox" /><span> ${todo.description}</span>
+        </div>`;
+    });
+    todosContainer.innerHTML = todosHtml;
+};
+
 render(todosList);
+
+ 
