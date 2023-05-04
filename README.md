@@ -50,7 +50,7 @@
 
 <!-- LIVE DEMO -->
 ## 🚀 Live Demo <a name="live-demo"></a>
- 
+ Coming soon(#)
 
 ## 💻 Getting Started <a name="getting-started"></a>
 clone from repository: https://github.com/Enoisong/to_dolist.git
@@ -131,7 +131,7 @@ If you like this project, give me a star
 -	Thanks to the Microverse team for the great curriculum.
 -	Thanks to the Code Reviewer(s) for the insightly feedbacks.
 -	A great thanks to my coding partner(s), morning session team, 
-  and  standup team for their contributions.
+  and standup team for their contributions.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
  
