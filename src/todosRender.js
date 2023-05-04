@@ -1,6 +1,6 @@
 const render = (todosList) => {
   const sortedTodos = todosList.list.sort((a, b) => a.index - b.index);
-  const todosContainer = document.querySelector('.todos');
+  const todost_container = document.querySelector('.todos');
   let todosHtml = '';
   sortedTodos.forEach(({ completed, description, id }) => {
     const checkedTodo = completed ? 'checked' : '';
@@ -11,10 +11,11 @@ const render = (todosList) => {
                               <input id="${id}" class="todo-edit ${checkClass}" type="text" value="${description}" />
                           </div>
                           <button id="${id}" class="remove-btn"> <i class="fas fa-trash"></i></button>
-                      </div>
+                      </div>                  
+
       `;
   });
-  todosContainer.innerHTML = todosHtml;
+  todost_container.innerHTML = todosHtml;
 
   // remove todo
   const removeBtns = document.querySelectorAll('.remove-btn');

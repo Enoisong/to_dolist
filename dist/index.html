@@ -5,21 +5,26 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>To Do List</title>   
+    <title>To Do List</title>     
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" 
-      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous" />    
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous" /> 
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 </head>
-
-<body>
-    <header class="container">
-      <h4 class="title">Today's Todo</h4>
-    <form>
+ 
+<body>  
+   
+    <header class="t_container"> 
+        <button class="button">
+            <div id="btn1"><i class="fa fa-refresh"></i></div>
+        </button>   
+      <h4 class="heading">Today's Todo</h4>                
+    <form>     
         <input class="input-todo" type="text" placeholder="Add to your List..." autofocus />
         <button class="add-btn">
             <i class="fas fa-location-arrow"></i>
         </button>
         </form>
-        
+
         <div class="todos">
             <!--todos added automatically-->
         </div>    
