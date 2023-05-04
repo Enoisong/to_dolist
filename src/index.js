@@ -11,7 +11,7 @@ const render = (list) => {
     let todosHtml = '';
     sortedTodos.forEach((todo) => {
         todosHtml += `<div class="todo-item">
-        <input type="checkbox" /><span> ${todo.description}</span>
+        <input type="checkbox" /><span> ${todo.description}</span>        
         </div>`;
     });
     todosContainer.innerHTML = todosHtml;
