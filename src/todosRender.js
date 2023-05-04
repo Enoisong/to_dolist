@@ -1,6 +1,6 @@
 const render = (todosList) => {
   const sortedTodos = todosList.list.sort((a, b) => a.index - b.index);
-  const todost_container = document.querySelector('.todos');
+  const todost_Container = document.querySelector('.todos');
   let todosHtml = '';
   sortedTodos.forEach(({ completed, description, id }) => {
     const checkedTodo = completed ? 'checked' : '';
@@ -15,7 +15,7 @@ const render = (todosList) => {
 
       `;
   });
-  todost_container.innerHTML = todosHtml;
+  todost_Container.innerHTML = todosHtml;
 
   // remove todo
   const removeBtns = document.querySelectorAll('.remove-btn');
