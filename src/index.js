@@ -3,9 +3,9 @@ import './style.css';
 const todosList = [
   {description: 'todo2', completed: false, index: 2},
   {description: 'todo1', completed: false, index: 1 },
-]
+]; 
 
-constrender = (list) => {
+const render = (list) => {
     const sortedTodos = list.sort((a, b) => a.index - b.index);
     const todosContainer = document.querySelector('.todos');
     let todosHtml = '';
