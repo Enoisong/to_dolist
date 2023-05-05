@@ -31,6 +31,7 @@ export default class Todos {
     });
     this.setLocalStorage();
   }
+
   completeTodo(todoId, status) {
     const selected = this.list.findIndex((element) => element.id === todoId);
     this.list[selected].completed = status;

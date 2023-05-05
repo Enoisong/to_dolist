@@ -2,11 +2,11 @@ import './style.css';
 import render from './todosRender.js';
 import Todos from './todos.js';
 
-//this function updates todos
+// this function updates todos
 const todosList = new Todos();
 render(todosList);
 
-//add event listener to the checkbox
+// add event listener to the checkbox
 const addTodoBtn = document.querySelector('.add-btn');
 addTodoBtn.addEventListener('click', () => {
   const id = `id${Math.random().toString(16).slice(2)}`;

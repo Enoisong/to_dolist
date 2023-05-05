@@ -42,7 +42,7 @@ const render = (todosList) => {
     });
   });
 
-// complete todo method
+  // complete todo method
   const todosCheck = document.querySelectorAll('.todo-check');
   todosCheck.forEach((todo) => {
     todo.addEventListener('change', (e) => {
