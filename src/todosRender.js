@@ -41,8 +41,8 @@ const render = (todosList) => {
       todosList.editTodo(e.target.id, e.target.value);
     });
   });
-  
-//function for complete Todo
+
+// complete todo method
   const todosCheck = document.querySelectorAll('.todo-check');
   todosCheck.forEach((todo) => {
     todo.addEventListener('change', (e) => {
