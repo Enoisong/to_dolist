@@ -27,10 +27,22 @@
 "to_dolist" is a simple web application that displays a list of task and allow you to add and remove task from that list.
 
 ## 🛠 Built With <a name="built-with"></a>
-- HTML
-- CSS
-- JavaScript (ES6)
+-  Major languages
+```bash
+- (HTML, CSS, JavaScript)
 - Webpack
+```
+
+-  Frameworks / Libraries
+```bash
+- Jest
+```
+
+-  Technologies used
+
+```bash
+- Git(version control)
+```
 
 ### Tech Stack <a name="tech-stack"></a>
 - HTML
@@ -62,8 +74,25 @@ In order to run this project you need to:
 - Install a Command Line Interface to clone project-Git bash/Terminal
 
 ### Setup
-Clone this repository to your desired folder: 
-https://github.com/Enoisong/to_dolist.git
+### Clone this repository  
+
+```bash
+```bash
+$ git clone https://github.com/Enoisong/to_dolist.git
+$ cd to_dolist
+
+### Run project
+
+```bash
+$ npm install
+$ npm build
+$ npm start
+```
+
+#### Open page in browser
+```bash
+$ runs on http://localhost:8084/
+```
 
 ### Install
 Install this project with:
@@ -95,16 +124,15 @@ It will be deployed after merge
 ## 👥 Author <a name="author"></a> 
 - Enobong Isong
  
-👤 **Author**
-👤 **Author**
+ 👤 **Author**
 - GitHub: [@githubhandle](https://github.com/Enoisong)
 - Twitter: [@twitterhandle](https://twitter.com/Enobongmisong)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/enobong-isong/)
 
 ## 🔭 Future Features <a name="future-features"></a>
--   [] **To Add more dynamics to the project; feature like animation 
-    and transition
-    -[]** To integrate backend.
+-  To Add more dynamics to the project; feature like animation 
+   and transition.
+ 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
