@@ -31,18 +31,4 @@ export default class Todos {
     });
     this.setLocalStorage();
   }
-
-  completeTodo(todoId, status) {
-    const selected = this.list.findIndex((element) => element.id === todoId);
-    this.list[selected].completed = status;
-    this.setLocalStorage();
-  }
-
-  clearCompletedTodos() {
-    this.list = this.list.filter((todo) => !todo.completed);
-    this.list.forEach((todo, index) => {
-      todo.index = index + 1;
-    });
-    this.setLocalStorage();
-  }
 }
