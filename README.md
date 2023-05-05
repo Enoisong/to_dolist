@@ -95,16 +95,15 @@ It will be deployed after merge
 ## 👥 Author <a name="author"></a> 
 - Enobong Isong
  
-👤 **Author**
-👤 **Author**
+ 👤 **Author**
 - GitHub: [@githubhandle](https://github.com/Enoisong)
 - Twitter: [@twitterhandle](https://twitter.com/Enobongmisong)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/enobong-isong/)
 
 ## 🔭 Future Features <a name="future-features"></a>
--   [] **To Add more dynamics to the project; feature like animation 
-    and transition
-    -[]** To integrate backend.
+## To Add more dynamics to the project; feature like animation 
+  and transition.
+ 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
