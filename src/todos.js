@@ -5,9 +5,13 @@ export default class Todos {
       : [];
   }
 
+  setLocalStorage() {
+    localStorage.setItem('todos', JSON.stringify(this.list));
+  }
+
   addTodo(todo) {
     this.list.push(todo);
-    localStorage.setItem('todos', JSON.stringify(this.list));
+    this.setLocalStorage();
   }
 
   removeTodo(todoID) {
@@ -15,16 +19,30 @@ export default class Todos {
     this.list.forEach((todo, index) => {
       todo.index = index + 1;
     });
-    localStorage.setItem('todos', JSON.stringify(this.list));
+    this.setLocalStorage();
   }
 
   editTodo(todoId, todoDescription) {
-    const newData = this.list.map((todo) => {
+    this.list = this.list.map((todo) => {
       if (todo.id === todoId) {
         return { ...todo, description: todoDescription };
       }
       return todo;
     });
-    localStorage.setItem('todos', JSON.stringify(newData));
+    this.setLocalStorage();
+  }
+
+  completeTodo(todoId, status) {
+    const selected = this.list.findIndex((element) => element.id === todoId);
+    this.list[selected].completed = status;
+    this.setLocalStorage();
+  }
+
+  clearCompletedTodos() {
+    this.list = this.list.filter((todo) => !todo.completed);
+    this.list.forEach((todo, index) => {
+      todo.index = index + 1;
+    });
+    this.setLocalStorage();
   }
 }
