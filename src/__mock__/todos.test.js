@@ -36,12 +36,12 @@ describe('add and remove', () => {
         completed: false,
         index: 3,
        };
-       
+
         todoList.addTodo(newTodo);
         todoList.removeTodo(newTodo.id);
         expect(todoList.list[1].description).toBe('task2');
         expect(todoList.list).toHaveLength(2);
-      });
+      });      
     });
 
      

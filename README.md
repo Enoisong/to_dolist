@@ -49,7 +49,7 @@
 - CSS
 - javascript
 - Webpack
-- Version Control (GitHub)
+- Version Control(GitHub)
  
 <!-- Features -->
 ### Key Features <a name="key-features"></a>
