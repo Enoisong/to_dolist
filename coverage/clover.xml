@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1683710930449" clover="3.2.0">
+  <project timestamp="1683710930450" name="All files">
+    <metrics statements="20" coveredstatements="8" conditionals="4" coveredconditionals="2" methods="13" coveredmethods="6" elements="37" coveredelements="16" complexity="0" loc="20" ncloc="20" packages="1" files="1" classes="1"/>
+    <file name="todos.js" path="C:\Users\masim\Microverse\Module-2\Week3\Projects\IsongTodoList\to_dolist\src\todos.js">
+      <metrics statements="20" coveredstatements="8" conditionals="4" coveredconditionals="2" methods="13" coveredmethods="6"/>
+      <line num="3" count="2" type="cond" truecount="2" falsecount="0"/>
+      <line num="9" count="4" type="stmt"/>
+      <line num="13" count="3" type="stmt"/>
+      <line num="14" count="3" type="stmt"/>
+      <line num="18" count="3" type="stmt"/>
+      <line num="19" count="1" type="stmt"/>
+      <line num="20" count="2" type="stmt"/>
+      <line num="22" count="1" type="stmt"/>
+      <line num="26" count="0" type="stmt"/>
+      <line num="27" count="0" type="cond" truecount="0" falsecount="2"/>
+      <line num="28" count="0" type="stmt"/>
+      <line num="30" count="0" type="stmt"/>
+      <line num="32" count="0" type="stmt"/>
+      <line num="36" count="0" type="stmt"/>
+      <line num="37" count="0" type="stmt"/>
+      <line num="38" count="0" type="stmt"/>
+      <line num="42" count="0" type="stmt"/>
+      <line num="43" count="0" type="stmt"/>
+      <line num="44" count="0" type="stmt"/>
+      <line num="46" count="0" type="stmt"/>
+    </file>
+  </project>
+</coverage>
