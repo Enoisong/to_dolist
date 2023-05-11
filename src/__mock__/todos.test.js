@@ -32,12 +32,14 @@ describe('add and remove', () => {
       completed: false,
       index: 1,
     };
+
     const newTodo2 = {
       id: 'id12sdad3',
       description: 'task2',
       completed: false,
       index: 2,
     };
+
     todoList.addTodo(newTodo);
     expect(todoList.list).toHaveLength(1);
     todoList.addTodo(newTodo2);
@@ -53,6 +55,7 @@ describe('add and remove', () => {
       completed: false,
       index: 3,
     };
+    
     todoList.addTodo(newTodo);
     todoList.removeTodo(newTodo.id);
     expect(todoList.list[1].description).toBe('task2');
