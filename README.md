@@ -115,6 +115,10 @@ npx hint .
 npx stylelint "**/*.{css,scss}"
 npx eslint .
 
+### Run jest use
+
+npm run test
+
 ### Deployment
 
 It will be deployed after merge
